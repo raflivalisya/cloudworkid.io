@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Work ID</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Cloud Work ID</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#products">Produk</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#about" class="cta-button">Pesan Sekarang</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="fullheight align-items-center bg-img bg-img-fixed"
+    style="background-image: url(image/bg4.png); ">
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Cloud Work ID</h1>
+                <p>Jasa desain, teknologi & akademik profesional | 3D Modeling, Web, Aplikasi, AR & jasa komputer</p>
+                <a href="#products" class="cta-button">Jelajahi Koleksi</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products" id="products">
+        <div class="container">
+            <h2 class="section-title">Produk Unggulan</h2>
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="image/1.jpg" alt="Jasa Akademik">
+                        <div class="product-badge">BESTSELLER</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Jasa Akademik</h3>
+                        <p class="product-description">Kami menawarkan Joki Skripsi, Makalah, Jurnal, Tugas Sekolah.</p>
+                        <div class="product-price">hubungi kami</div>
+                        <a href="#" class="product-button">Detail Produk</a>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="image/2.jpg" alt="Jasa Kreatif">
+                    </div>
+                    <div class="product-info">
+                        <h3>Jasa Kreatif </h3>
+                        <p class="product-description">Kami menawarkan Desain 2D/3D, 3D Modeling, Pembuatan Web & Aplikasi, Augmented Reality, Desain Postingan, Video Editing, Asset Store.</p>
+                        <div class="product-price">hubungi kami</div>
+                        <a href="#" class="product-button">Detail Produk</a>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="image/4.jpg" alt="Jasa Teknologi">
+                        <div class="product-badge">NEW</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Jasa Teknologi</h3>
+                        <p class="product-description">Kami menawarkan Jasa Komputer (instalasi, upgrade, reparasi)</p>
+                        <div class="product-price">hubungi kami</div>
+                        <a href="#" class="product-button">Detail Produk</a>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all">
+                <a href="#" class="cta-button-outline">Lihat Semua Produk</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Butuh solusi untuk masalah kamu?</h2>
+            <p>Hubungi kami untuk diskusi proyek! 😁</p>
+            <a href="#contact" class="cta-button">Hubungi Kami Sekarang</a>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer" id="about">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>CloudworkID</h3>
+                    <p>Platform penyedia jasa profesional yang berfokus pada membantu menyelesaikan berbagai jenis tugas, mulai dari tugas akademik, proyek teknologi, hingga kebutuhan konten kreatif. Kami berkomitmen memberikan hasil terbaik secara tepat waktu dan sesuai kebutuhan Anda. Dengan tim yang berpengalaman dan layanan yang responsif, CloudworkID hadir sebagai solusi cerdas untuk tugas Anda.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Produk</h3>
+                    <ul>
+                        <li><a href="#products">Jasa Akademik</a></li>
+                        <li><a href="#products">Jasa Kreatif</a></li>
+                        <li><a href="#products">Jasa Teknologi</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Layanan</h3>
+                    <ul>
+                        <li><a href="#products">Desain Interior 2D/3D</a></li>
+                        <li><a href="#products">Pengiriman</a></li>
+                        <li><a href="#products">Pemasangan</a></li>
+                        <li><a href="#products">Garansi</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <ul>
+                        <li><a href="https://api.whatsapp.com/send?phone=6285789639032">Whatsapp</li>
+                        <li><a href="https://www.instagram.com/cloudworkid/">Instagram</a></li>
+                        <li><a href="#">Email</a></li>
+                    </ul>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Email Anda">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 CloudworkID. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Syarat & Ketentuan</a>
+                    <a href="#">Kebijakan Privasi</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
